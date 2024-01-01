@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Quicksand:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary: #2d2d2d;
+    --bg: #EDEDEF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar {
+    margin: 0 5rem;
+}
+
+.nav-col li {
+    padding: 0 3rem;
+    font-size: 17px;
+}
+
+.row-collection {
+    padding: 0 3rem;
+}
+
+
+.navbar-brand img {
+    width: 65%;
+}
+
+.navbar-collapse {
+    padding-left: 10%;
+}
+
+.search-border {
+    border: none;
+}
+
+
+
+.product-home h5 {
+    padding: 2rem 10px 0 1rem;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.product-home p {
+    padding: 2rem 10px 0 1rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.product-home h6 {
+    padding: 0rem 1rem 0 1rem;
+    font-size: 14px;
+    color: #706B62;
+}
+
+.row-product {
+    padding: 0 3rem 5rem 3rem;
+}
+
+.row-product h3 {
+    padding-bottom: 2rem;
+
+}
+
+/* .gambar-product{} */
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+.bread {
+    padding-left: 4.5rem;
+    padding-top: 52px;
+}
+
+.featicon i {
+    width: 100px;
+}
+
+.product {
+    padding: 0 0 100px 3.5rem;
+    margin: 1rem;
+}
+
+.product h2 {
+    font-size: 49px;
+}
+
+.footer {
+    padding: 5rem 3rem;
+    background-color: #2d2d2d;
+}
+
+.text-footer {
+    color: #EDEDEF;
+}
+
+.text-footer p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.text-footer h5 {
+    font-weight: 600;
+    line-height: 160%
+}
+
+.text-footer-account {
+    /* padding-left: 3rem; */
+    color: #EDEDEF;
+}
+
+.icon-account {
+    padding-left: 11.5rem;
+}
+
+.icon-account img {
+    padding: 0 0.5rem;
+}
+
+.garis-footer {
+    padding-top: 3rem;
+}
+
+.footer2 {
+    color: #EDEDEF;
+}
+
+.footer2 h5 {
+
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.footer2 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}

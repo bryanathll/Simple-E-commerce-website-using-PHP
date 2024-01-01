@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Quicksand:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --primary: #2d2d2d;
+    --bg: #ededef;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+.navbar {
+    margin: 0 5rem;
+}
+
+.nav-col li {
+    padding: 0 3rem;
+    font-size: 17px;
+}
+
+.row-collection {
+    padding: 0 3rem;
+}
+
+.navbar-brand img {
+    width: 65%;
+}
+
+.navbar-collapse {
+    padding-left: 10%;
+}
+
+.search-border {
+    border: none;
+}
+
+.pembelian {
+    padding: 8rem 200px;
+}
+
+.pembelian p {
+    color: #706b62;
+    font-weight: 600;
+}
+
+.pembelian h5 {
+    font-weight: 600;
+}
+
+.row-bor {
+    padding-top: 22px;
+}
+
+.row-produk {
+    padding-top: 2rem;
+}
+
+.col-ringkasan {
+    padding-left: 5rem;
+}
+
+.personal {
+    padding-top: 100px;
+}
+
+.address {
+    padding-top: 60px;
+}
+
+.payment {
+    padding-top: 60px;
+    padding-bottom: 22px;
+}
+
+.credit {
+    border: solid #2d2d2d 1px;
+    border-radius: 22px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+}
+
+.credit img {
+    padding-right: 18px;
+}
+
+.qris img {
+    padding-right: 18px;
+}
+
+.qris {
+    border: solid #2d2d2d 1px;
+    border-radius: 22px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.form-style {
+    padding: 13px 20px;
+    height: 48px;
+    width: 100%;
+    font-weight: 500;
+    border: solid #2d2d2d 1px;
+
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    outline: none;
+    color: #2d2d2d;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.ringkasan {
+    margin: 0;
+}
